@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section h1{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e2dcdc;
+    padding: 0.5rem 1rem;
+
+}
+
+.div1{
+    background: url(https://images.unsplash.com/photo-1558986377-c44f6a2b50f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-attachment: fixed;/*This is what make the background image fixed and creates the parallax effect.*/
+}
+
+.div2{
+    background: #FF6F91;
+}
+
+.div3{
+    background: url(https://images.unsplash.com/photo-1553460017-8917b6b478d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;/*This is what make the background image fixed and creates the parallax effect.*/
+
+}
+
+.div3 h1{
+    text-align: center;
+    width: max-content;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content p{
+    margin : 1.5rem 0;
+    font-size: 1.5em;
+    background: #D2D4DA;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+.div4{
+   background: #845EC2; 
+}
